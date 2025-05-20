@@ -1,0 +1,12 @@
+[user]
+	name = Vincibean
+	email = sepensi@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[core]
+	autocrlf = input
+	editor = vim
+[mergetool]
+	keepBackup = false
