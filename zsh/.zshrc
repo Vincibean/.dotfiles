@@ -36,8 +36,8 @@ export PATH=$PATH:~/.config/emacs/bin
 ### GHCup
 [ -f "/home/dre/.ghcup/env" ] && . "/home/dre/.ghcup/env" # ghcup-env
 
-### replace ls with eza
-alias ls='eza -al --long --header --color=always --group-directories-first --icons'
+### replace ll with eza
+alias ll='eza -al --long --header --color=always --group-directories-first --icons'
 
 ### replace tree with tree -a
 alias tree='tree -a'
