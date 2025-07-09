@@ -33,6 +33,9 @@ vim.api.nvim_create_autocmd("TermOpen", {
   end,
 })
 
+-- Close the terminal. This doesn't seem to work for me, but the syntax seems fine...
+vim.keymap.set("t", "<esc><esc>", "<C-\\><C-n>")
+
 vim.keymap.set("n", "<space>st", function()
   vim.cmd.new()
   vim.cmd.term()
