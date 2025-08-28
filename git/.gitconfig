@@ -10,3 +10,5 @@
 	editor = vim
 [mergetool]
 	keepBackup = false
+[pull]
+	rebase = true
